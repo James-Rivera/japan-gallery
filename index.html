@@ -35,9 +35,14 @@
     <script>
         var container = document.getElementById('containergallery');
 
-        var image = [];
-        var title = [];
-        var description = [];
+        var image = ["showa.jpg", "fuji_train.jpg", "castle.jpg", "inari_gates.jpg"];
+        var title = ["Echoes of the Showa Era","Fuji Railway Crossing","The Samurai Fortress","Tunnel of Vermilion"];
+        var description = [
+                            "Step back in time with this nostalgic view of a classic Showa-era street, where vintage charm meets modern life in Japan.",
+                            "Experience the breathtaking sight of Mount Fuji framed by a traditional train crossing, capturing the essence of Japan's scenic beauty.",
+                            "Discover the grandeur of Japan's feudal past with this majestic samurai castle, a symbol of strength and history.",
+                            "Walk through the mesmerizing tunnel of vibrant red torii gates at Fushimi Inari Shrine, a spiritual journey like no other."
+                        ];
 
         for (let i = 0; i < image.length; i++) {
             container.innerHTML += `
