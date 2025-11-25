@@ -4,11 +4,9 @@ A responsive web application for "Activity 6" of Web Developement Course in PUP 
 
 ## Project Overview
 
-This project is a fragmented part of JAPAN TOURS [ACTIVITY 5] in which it displays a collection of famous Japanese locations through an interactive card-based gallery. Each card features an image, title, and description of a notable landmark or cultural site in Japan.
+This project is a fragmented part of [Japan Tours - Activity 5](https://james-rivera.github.io/tokyo-showcase/) in which it displays a collection of famous Japanese locations through an interactive card-based gallery. Each card features an image, title, and description of a notable landmark or cultural site in Japan.
 
 **Live Demo:** https://james-rivera.github.io/japan-gallery/
-
-**Related Project:** [Japan Tours - Activity 5](https://james-rivera.github.io/tokyo-showcase/)
 
 ## Features
 
