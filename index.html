@@ -36,7 +36,7 @@
         var container = document.getElementById('containergallery');
 
         var image = ["showa.jpg", "fuji_train.jpg", "castle.jpg", "inari_gates.jpg"];
-        var title = ["Echoes of the Showa Era","Fuji Railway Crossing","The Samurai Fortress","Tunnel of Vermilion"];
+        var title = ["The Showa Era","Fuji Railway Crossing","The Samurai Fortress","Tunnel of Vermilion"];
         var description = [
                             "Step back in time with this nostalgic view of a classic Showa-era street, where vintage charm meets modern life in Japan.",
                             "Experience the breathtaking sight of Mount Fuji framed by a traditional train crossing, capturing the essence of Japan's scenic beauty.",
@@ -50,8 +50,8 @@
                     <div class="card h-100">
                         <img src="images/${image[i]}" class="card-img-top" alt="${title[i]}">
                         <div class="card-body">
-                            <h5 class="card-title">${title[i]}</h5>
-                            <p class="card-text">${description[i]}</p>
+                            <h5 class="card-title py-2">${title[i]}</h5>
+                            <p class="card-text pb-3">${description[i]}</p>
                         </div>
                     </div>
                 </div>
